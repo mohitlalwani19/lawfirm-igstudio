@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
-import "./styles.css";
+import "./App.css";
 
 export default function App() {
   return (
