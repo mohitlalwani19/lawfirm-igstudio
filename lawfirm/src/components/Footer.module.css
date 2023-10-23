@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  width: 100vw;
+  padding: 2rem 6rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-black);
+}
+
+.menu {
+  display: flex;
+  width: 431px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 41px;
+  background-color: var(--color-black);
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  background-color: var(--color-black);
+  font-size: 14px;
+  padding: 2rem 6rem;
+}
