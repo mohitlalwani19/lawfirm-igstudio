@@ -1,0 +1,13 @@
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  padding: 4rem 6rem;
+}
+
+.intropart1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 571px;
+}

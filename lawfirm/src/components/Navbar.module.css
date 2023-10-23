@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  width: 100vw;
+  padding: 2rem 6rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-black);
+}
+
+.menu {
+  display: flex;
+  width: 431px;
+  align-items: center;
+  gap: 41px;
+}
+
+.btn {
+  background-color: var(--color-black);
+  border: 1px solid var(--color-primary);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

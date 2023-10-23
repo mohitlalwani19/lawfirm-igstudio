@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import Intro from "./components/Intro";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <HeroSection />
+      <Intro />
+      <h1 style={{ textAlign: "center" }}>Why choose us?</h1>
+      <div className="flex">
+        <Card title="98% Success Rate" color="black" />
+        <Card title="100% Success Rate" color="#2E2E2E" />
+        <Card title="98% Success Rate" color="black" />
+      </div>
+      <Footer />
     </div>
   );
 }
-
-export default App;
