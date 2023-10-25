@@ -15,12 +15,13 @@ let HeroSection = () => {
           curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
           hac massa gravida arcu interdum proin curae.
         </p>
-        <div className={styles.emailInput}>
-          <p style={{ color: "black", opacity: "0.7" }}>
-            Enter your email address
-          </p>
+        <form className={styles.wrapper}>
+          <input
+            className={styles.inputField}
+            placeholder="Enter your email address"
+          />
           <button className={styles.btn}>Let's Talk</button>
-        </div>
+        </form>
       </div>
       <div>
         <img src={heroImage} alt="heroimg" width={400} />

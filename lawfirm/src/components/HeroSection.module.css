@@ -14,15 +14,30 @@
   width: 571px;
 }
 
-.emailInput {
+.wrapper {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
   width: 400px;
   height: 63px;
   background-color: gray;
   border-radius: 43px;
   padding-left: 30px;
+}
+
+.inputField {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-black);
+  width: 90%;
+  font-size: 18px;
+}
+
+::placeholder {
+  font-size: 18px;
+  color: var(--color-black);
+  opacity: 0.5;
 }
 
 .btn {

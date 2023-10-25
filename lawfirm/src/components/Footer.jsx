@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import logo from "../assets/logo.svg";
+import Images from "./Images";
 
 let Footer = () => {
   return (
@@ -13,12 +14,7 @@ let Footer = () => {
           <p>Practice Areas</p>
           <p>About Us</p>
         </div>
-        <div className={styles.menu}>
-          <img src="" alt="insta" />
-          <img src="" alt="fb" />
-          <img src="" alt="tweet" />
-          <img src="" alt="pint" />
-        </div>
+        <Images type="social" />
       </div>
       <div className={styles.credits}>
         <p>© 2020 Acme. All right reserved.</p>

@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+  gap: 40px;
+  padding: 2rem 4rem;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.btn {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
